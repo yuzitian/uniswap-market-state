@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+    <style type="text/css">
+            html,body{
+                height:100%;
+                width:100%
+            }
+    </style>
+</head>
+<body onresize="resizeFresh()">
+    <div id="900ced0a06984c47a7443c04d30ecc28" class="chart-container" style="width:100%; height:100%;"></div>
+    <script>
+        var chart_900ced0a06984c47a7443c04d30ecc28 = echarts.init(
+            document.getElementById('900ced0a06984c47a7443c04d30ecc28'), 'white', {renderer: 'canvas'});
+        var option_900ced0a06984c47a7443c04d30ecc28 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "graph",
+            "layout": "force",
+            "symbolSize": 10,
+            "circular": {
+                "rotateLabel": false
+            },
+            "force": {
+                "repulsion": 1000,
+                "edgeLength": 50,
+                "gravity": 0.2
+            },
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 0.5,
+                "opacity": 0.7,
+                "curveness": 0.3,
+                "type": "solid"
+            },
+            "roam": true,
+            "draggable": false,
+            "focusNodeAdjacency": true,
+            "data": [
+                {
+                    "name": "USDC",
+                    "symbolSize": 60,
+                    "category": 1
+                },
+                {
+                    "name": "WETH",
+                    "symbolSize": 70,
+                    "category": 0
+                },
+                {
+                    "name": "WBTC",
+                    "symbolSize": 60,
+                    "category": 1
+                },
+                {
+                    "name": "USDT",
+                    "symbolSize": 60,
+                    "category": 1
+                },
+                {
+                    "name": "FRAX",
+                    "symbolSize": 50,
+                    "category": 2
+                },
+                {
+                    "name": "DAI",
+                    "symbolSize": 60,
+                    "category": 1
+                },
+                {
+                    "name": "sETH2",
+                    "symbolSize": 40,
+                    "category": 3
+                },
+                {
+                    "name": "UNI",
+                    "symbolSize": 50,
+                    "category": 2
+                },
+                {
+                    "name": "LINK",
+                    "symbolSize": 40,
+                    "category": 3
+                },
+                {
+                    "name": "PAX",
+                    "symbolSize": 40,
+                    "category": 3
+                },
+                {
+                    "name": "HEX",
+                    "symbolSize": 40,
+                    "category": 3
+                },
+                {
+                    "name": "LRC",
+                    "symbolSize": 40,
+                    "category": 3
+                },
+                {
+                    "name": "RPL",
+                    "symbolSize": 40,
+                    "category": 3
+                },
+                {
+                    "name": "RAI",
+                    "symbolSize": 40,
+                    "category": 3
+                },
+                {
+                    "name": "DYDX",
+                    "symbolSize": 40,
+                    "category": 3
+                },
+                {
+                    "name": "ETH2x-FLI",
+                    "symbolSize": 40,
+                    "category": 3
+                },
+                {
+                    "name": "AGLD",
+                    "symbolSize": 40,
+                    "category": 3
+                },
+                {
+                    "name": "COMP",
+                    "symbolSize": 40,
+                    "category": 3
+                },
+                {
+                    "name": "HOPR",
+                    "symbolSize": 30,
+                    "category": 4
+                },
+                {
+                    "name": "INST",
+                    "symbolSize": 40,
+                    "category": 3
+                },
+                {
+                    "name": "EURS",
+                    "symbolSize": 30,
+                    "category": 4
+                },
+                {
+                    "name": "DPI",
+                    "symbolSize": 40,
+                    "category": 3
+                },
+                {
+                    "name": "AXS",
+                    "symbolSize": 30,
+                    "category": 4
+                },
+                {
+                    "name": "HI",
+                    "symbolSize": 40,
+                    "category": 3
+                },
+                {
+                    "name": "renBTC",
+                    "symbolSize": 30,
+                    "category": 4
+                },
+                {
+                    "name": "MKR",
+                    "symbolSize": 40,
+                    "category": 3
+                },
+                {
+                    "name": "FTM",
+                    "symbolSize": 30,
+                    "category": 4
+                },
+                {
+                    "name": "PERP",
+                    "symbolSize": 30,
+                    "category": 4
+                },
+                {
+                    "name": "WDOGE",
+                    "symbolSize": 40,
+                    "category": 3
+                },
+                {
+                    "name": "FLOOR",
+                    "symbolSize": 40,
+                    "category": 3
+                },
+                {
+                    "name": "MATIC",
+                    "symbolSize": 30,
+                    "category": 4
+                },
+                {
+                    "name": "FX",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "CEL",
+                    "symbolSize": 30,
+                    "category": 4
+                },
+                {
+                    "name": "GNO",
+                    "symbolSize": 30,
+                    "category": 4
+                },
+                {
+                    "name": "FEI",
+                    "symbolSize": 30,
+                    "category": 4
+                },
+                {
+                    "name": "FWB",
+                    "symbolSize": 30,
+                    "category": 4
+                },
+                {
+                    "name": "WTON",
+                    "symbolSize": 30,
+                    "category": 4
+                },
+                {
+                    "name": "CELR",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "EURT",
+                    "symbolSize": 30,
+                    "category": 4
+                },
+                {
+                    "name": "BIT",
+                    "symbolSize": 30,
+                    "category": 4
+                },
+                {
+                    "name": "VXV",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "FTX Token",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "YGG",
+                    "symbolSize": 30,
+                    "category": 4
+                },
+                {
+                    "name": "AAVE",
+                    "symbolSize": 30,
+                    "category": 4
+                },
+                {
+                    "name": "NEXO",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "ARCX",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "QNT",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "RUNE",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "1INCH",
+                    "symbolSize": 30,
+                    "category": 4
+                },
+                {
+                    "name": "MM",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "sUSD",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "CRV",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "ZENIQ",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "KP3R",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "TRU",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "UST",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "AVINOC",
+                    "symbolSize": 30,
+                    "category": 4
+                },
+                {
+                    "name": "BAT",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "ADST",
+                    "symbolSize": 10,
+                    "category": 4
+                },
+                {
+                    "name": "ADS",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "GTC",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "CMK",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "LYXe",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "LDO",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "LCX",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "TXJP",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "SNX",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "ERN",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "DHT",
+                    "symbolSize": 20,
+                    "category": 4
+                },
+                {
+                    "name": "RARE",
+                    "symbolSize": 20,
+                    "category": 4
+                }
+            ],
+            "categories": [
+                {
+                    "name": "\u4e00\u7ea7\u8282\u70b9",
+                    "color": "red"
+                },
+                {
+                    "name": "\u4e8c\u7ea7\u8282\u70b9",
+                    "color": "blue"
+                },
+                {
+                    "name": "\u4e09\u7ea7\u8282\u70b9",
+                    "color": "green"
+                },
+                {
+                    "name": "\u56db\u7ea7\u8282\u70b9",
+                    "color": "yellow"
+                },
+                {
+                    "name": "\u4e94\u7ea7\u8282\u70b9",
+                    "color": "black"
+                }
+            ],
+            "edgeLabel": {
+                "show": false,
+                "position": "middle",
+                "margin": 8,
+                "formatter": "1->{c} "
+            },
+            "edgeSymbol": [
+                "none",
+                "arrow"
+            ],
+            "edgeSymbolSize": 10,
+            "links": [
+                {
+                    "source": "USDC",
+                    "target": "WETH",
+                    "value": "1 -> 0.00031777346000088865"
+                },
+                {
+                    "source": "USDC",
+                    "target": "USDT",
+                    "value": "1 -> 1.0000753959353337"
+                },
+                {
+                    "source": "USDC",
+                    "target": "FRAX",
+                    "value": "1 -> 1.0003434826572895"
+                },
+                {
+                    "source": "USDC",
+                    "target": "DAI",
+                    "value": "1 -> 0.999690578631697"
+                },
+                {
+                    "source": "USDC",
+                    "target": "WBTC",
+                    "value": "1 -> 2.2354525768813343e-05"
+                },
+                {
+                    "source": "USDC",
+                    "target": "HEX",
+                    "value": "1 -> 2.1224519511117554"
+                },
+                {
+                    "source": "USDC",
+                    "target": "LRC",
+                    "value": "1 -> 2.4405440387649655"
+                },
+                {
+                    "source": "USDC",
+                    "target": "PAX",
+                    "value": "1 -> 0.9991822370462804"
+                },
+                {
+                    "source": "USDC",
+                    "target": "EURS",
+                    "value": "1 -> 0.8547649429407135"
+                },
+                {
+                    "source": "USDC",
+                    "target": "HI",
+                    "value": "1 -> 1.7732494702072383"
+                },
+                {
+                    "source": "USDC",
+                    "target": "FEI",
+                    "value": "1 -> 1.000990466133505"
+                },
+                {
+                    "source": "USDC",
+                    "target": "YGG",
+                    "value": "1 -> 0.16729125123613905"
+                },
+                {
+                    "source": "USDC",
+                    "target": "MM",
+                    "value": "1 -> 0.06101824854665875"
+                },
+                {
+                    "source": "USDC",
+                    "target": "UST",
+                    "value": "1 -> 0.998916008077221"
+                },
+                {
+                    "source": "USDC",
+                    "target": "RAI",
+                    "value": "1 -> 0.33188880230511764"
+                },
+                {
+                    "source": "USDC",
+                    "target": "CMK",
+                    "value": "1 -> 2.822923661889677"
+                },
+                {
+                    "source": "USDC",
+                    "target": "AVINOC",
+                    "value": "1 -> 26.906912926364843"
+                },
+                {
+                    "source": "USDC",
+                    "target": "DHT",
+                    "value": "1 -> 1.0090354813707678"
+                },
+                {
+                    "source": "WETH",
+                    "target": "USDC",
+                    "value": "1 -> 3146.8958503299596"
+                },
+                {
+                    "source": "WETH",
+                    "target": "WBTC",
+                    "value": "1 -> 0.0701780366970922"
+                },
+                {
+                    "source": "WETH",
+                    "target": "USDT",
+                    "value": "1 -> 3143.0019562390066"
+                },
+                {
+                    "source": "WETH",
+                    "target": "sETH2",
+                    "value": "1 -> 1.0091954674000352"
+                },
+                {
+                    "source": "WETH",
+                    "target": "UNI",
+                    "value": "1 -> 146.74579628223665"
+                },
+                {
+                    "source": "WETH",
+                    "target": "LINK",
+                    "value": "1 -> 124.4634965503168"
+                },
+                {
+                    "source": "WETH",
+                    "target": "DAI",
+                    "value": "1 -> 3140.5022857642202"
+                },
+                {
+                    "source": "WETH",
+                    "target": "RPL",
+                    "value": "1 -> 96.18846983818679"
+                },
+                {
+                    "source": "WETH",
+                    "target": "DYDX",
+                    "value": "1 -> 224.81556374987488"
+                },
+                {
+                    "source": "WETH",
+                    "target": "PAX",
+                    "value": "1 -> 3138.4439571694015"
+                },
+                {
+                    "source": "WETH",
+                    "target": "ETH2x-FLI",
+                    "value": "1 -> 24.962789199730853"
+                },
+                {
+                    "source": "WETH",
+                    "target": "AGLD",
+                    "value": "1 -> 992.5883728293653"
+                },
+                {
+                    "source": "WETH",
+                    "target": "COMP",
+                    "value": "1 -> 8.44366817713245"
+                },
+                {
+                    "source": "WETH",
+                    "target": "INST",
+                    "value": "1 -> 623.0851573033874"
+                },
+                {
+                    "source": "WETH",
+                    "target": "DPI",
+                    "value": "1 -> 9.637030467827005"
+                },
+                {
+                    "source": "WETH",
+                    "target": "AXS",
+                    "value": "1 -> 46.806635006636185"
+                },
+                {
+                    "source": "WETH",
+                    "target": "MKR",
+                    "value": "1 -> 1.2642121794830843"
+                },
+                {
+                    "source": "WETH",
+                    "target": "FTM",
+                    "value": "1 -> 2525.4984242535033"
+                },
+                {
+                    "source": "WETH",
+                    "target": "PERP",
+                    "value": "1 -> 238.74145771506184"
+                },
+                {
+                    "source": "WETH",
+                    "target": "WDOGE",
+                    "value": "1 -> 13892.166826011198"
+                },
+                {
+                    "source": "WETH",
+                    "target": "FLOOR",
+                    "value": "1 -> 93294.72777361138"
+                },
+                {
+                    "source": "WETH",
+                    "target": "MATIC",
+                    "value": "1 -> 2571.759948621107"
+                },
+                {
+                    "source": "WETH",
+                    "target": "FX",
+                    "value": "1 -> 4135.250426653172"
+                },
+                {
+                    "source": "WETH",
+                    "target": "CEL",
+                    "value": "1 -> 618.010128362862"
+                },
+                {
+                    "source": "WETH",
+                    "target": "GNO",
+                    "value": "1 -> 11.737741785547367"
+                },
+                {
+                    "source": "WETH",
+                    "target": "FWB",
+                    "value": "1 -> 28.408900958431147"
+                },
+                {
+                    "source": "WETH",
+                    "target": "WTON",
+                    "value": "1 -> 423.701580046815"
+                },
+                {
+                    "source": "WETH",
+                    "target": "CELR",
+                    "value": "1 -> 22390.04956883454"
+                },
+                {
+                    "source": "WETH",
+                    "target": "EURT",
+                    "value": "1 -> 2673.1249400320676"
+                },
+                {
+                    "source": "WETH",
+                    "target": "BIT",
+                    "value": "1 -> 1881.2403841016944"
+                },
+                {
+                    "source": "WETH",
+                    "target": "VXV",
+                    "value": "1 -> 218.61793605238228"
+                },
+                {
+                    "source": "WETH",
+                    "target": "FTX Token",
+                    "value": "1 -> 54.92659779161433"
+                },
+                {
+                    "source": "WETH",
+                    "target": "AAVE",
+                    "value": "1 -> 10.258732816854865"
+                },
+                {
+                    "source": "WETH",
+                    "target": "NEXO",
+                    "value": "1 -> 2074.7607731112716"
+                },
+                {
+                    "source": "WETH",
+                    "target": "ARCX",
+                    "value": "1 -> 3438.633211376584"
+                },
+                {
+                    "source": "WETH",
+                    "target": "QNT",
+                    "value": "1 -> 9.330750032122918"
+                },
+                {
+                    "source": "WETH",
+                    "target": "RUNE",
+                    "value": "1 -> 350.5308988454862"
+                },
+                {
+                    "source": "WETH",
+                    "target": "1INCH",
+                    "value": "1 -> 1143.9594861495564"
+                },
+                {
+                    "source": "WETH",
+                    "target": "CRV",
+                    "value": "1 -> 1119.4075100248413"
+                },
+                {
+                    "source": "WETH",
+                    "target": "ZENIQ",
+                    "value": "1 -> 10423.817116696004"
+                },
+                {
+                    "source": "WETH",
+                    "target": "KP3R",
+                    "value": "1 -> 8.712944576015389"
+                },
+                {
+                    "source": "WETH",
+                    "target": "TRU",
+                    "value": "1 -> 10634.941413357206"
+                },
+                {
+                    "source": "WETH",
+                    "target": "AVINOC",
+                    "value": "1 -> 84194.93545369437"
+                },
+                {
+                    "source": "WETH",
+                    "target": "BAT",
+                    "value": "1 -> 4460.568117522339"
+                },
+                {
+                    "source": "WETH",
+                    "target": "GTC",
+                    "value": "1 -> 380.9688826514201"
+                },
+                {
+                    "source": "WETH",
+                    "target": "LYXe",
+                    "value": "1 -> 131.0343909035678"
+                },
+                {
+                    "source": "WETH",
+                    "target": "LDO",
+                    "value": "1 -> 620.5773629160554"
+                },
+                {
+                    "source": "WETH",
+                    "target": "LCX",
+                    "value": "1 -> 21171.296596204924"
+                },
+                {
+                    "source": "WETH",
+                    "target": "TXJP",
+                    "value": "1 -> 19.22193465267657"
+                },
+                {
+                    "source": "WETH",
+                    "target": "YGG",
+                    "value": "1 -> 521.7356144432073"
+                },
+                {
+                    "source": "WETH",
+                    "target": "HEX",
+                    "value": "1 -> 6694.98228556552"
+                },
+                {
+                    "source": "WETH",
+                    "target": "SNX",
+                    "value": "1 -> 270.514462416747"
+                },
+                {
+                    "source": "WETH",
+                    "target": "ERN",
+                    "value": "1 -> 286.63614024869173"
+                },
+                {
+                    "source": "WETH",
+                    "target": "RARE",
+                    "value": "1 -> 2805.1530843645155"
+                },
+                {
+                    "source": "WBTC",
+                    "target": "WETH",
+                    "value": "1 -> 14.249472369850011"
+                },
+                {
+                    "source": "WBTC",
+                    "target": "USDC",
+                    "value": "1 -> 44729.68307984298"
+                },
+                {
+                    "source": "WBTC",
+                    "target": "PAX",
+                    "value": "1 -> 44864.972463750244"
+                },
+                {
+                    "source": "WBTC",
+                    "target": "renBTC",
+                    "value": "1 -> 1.0001970801180575"
+                },
+                {
+                    "source": "WBTC",
+                    "target": "USDT",
+                    "value": "1 -> 44697.38878375824"
+                },
+                {
+                    "source": "USDT",
+                    "target": "USDC",
+                    "value": "1 -> 0.9999246042712198"
+                },
+                {
+                    "source": "USDT",
+                    "target": "WETH",
+                    "value": "1 -> 0.00031816714897684784"
+                },
+                {
+                    "source": "USDT",
+                    "target": "DAI",
+                    "value": "1 -> 0.9997471511496894"
+                },
+                {
+                    "source": "USDT",
+                    "target": "WBTC",
+                    "value": "1 -> 2.2369991827195534e-05"
+                },
+                {
+                    "source": "USDT",
+                    "target": "FRAX",
+                    "value": "1 -> 1.0003409285959766"
+                },
+                {
+                    "source": "USDT",
+                    "target": "DYDX",
+                    "value": "1 -> 0.07182394733750942"
+                },
+                {
+                    "source": "USDT",
+                    "target": "EURT",
+                    "value": "1 -> 0.8510539347613757"
+                },
+                {
+                    "source": "USDT",
+                    "target": "AVINOC",
+                    "value": "1 -> 26.856433117468256"
+                },
+                {
+                    "source": "FRAX",
+                    "target": "USDC",
+                    "value": "1 -> 0.9996566352677527"
+                },
+                {
+                    "source": "FRAX",
+                    "target": "DAI",
+                    "value": "1 -> 0.9994436585214933"
+                },
+                {
+                    "source": "FRAX",
+                    "target": "USDT",
+                    "value": "1 -> 0.9996591875452157"
+                },
+                {
+                    "source": "FRAX",
+                    "target": "sUSD",
+                    "value": "1 -> 0.9953822505870132"
+                },
+                {
+                    "source": "DAI",
+                    "target": "USDC",
+                    "value": "1 -> 1.0003095171290024"
+                },
+                {
+                    "source": "DAI",
+                    "target": "WETH",
+                    "value": "1 -> 0.00031842040188081663"
+                },
+                {
+                    "source": "DAI",
+                    "target": "USDT",
+                    "value": "1 -> 1.000252912787382"
+                },
+                {
+                    "source": "DAI",
+                    "target": "RAI",
+                    "value": "1 -> 0.3320099719611774"
+                },
+                {
+                    "source": "DAI",
+                    "target": "HOPR",
+                    "value": "1 -> 3.8700608500891573"
+                },
+                {
+                    "source": "DAI",
+                    "target": "FRAX",
+                    "value": "1 -> 1.0005566511666042"
+                },
+                {
+                    "source": "DAI",
+                    "target": "LRC",
+                    "value": "1 -> 2.447356085668862"
+                },
+                {
+                    "source": "DAI",
+                    "target": "AVINOC",
+                    "value": "1 -> 26.762798884368454"
+                },
+                {
+                    "source": "sETH2",
+                    "target": "WETH",
+                    "value": "1 -> 0.9908883187668296"
+                },
+                {
+                    "source": "UNI",
+                    "target": "WETH",
+                    "value": "1 -> 0.006814505255429136"
+                },
+                {
+                    "source": "LINK",
+                    "target": "WETH",
+                    "value": "1 -> 0.008034484227872968"
+                },
+                {
+                    "source": "PAX",
+                    "target": "WBTC",
+                    "value": "1 -> 2.2289099396876586e-05"
+                },
+                {
+                    "source": "PAX",
+                    "target": "WETH",
+                    "value": "1 -> 0.00031862923587445643"
+                },
+                {
+                    "source": "PAX",
+                    "target": "USDC",
+                    "value": "1 -> 1.0008184321545164"
+                },
+                {
+                    "source": "HEX",
+                    "target": "USDC",
+                    "value": "1 -> 0.47115315083849796"
+                },
+                {
+                    "source": "HEX",
+                    "target": "WETH",
+                    "value": "1 -> 0.00014936558149673316"
+                },
+                {
+                    "source": "LRC",
+                    "target": "USDC",
+                    "value": "1 -> 0.4097447060475358"
+                },
+                {
+                    "source": "LRC",
+                    "target": "DAI",
+                    "value": "1 -> 0.4086042100106914"
+                },
+                {
+                    "source": "RPL",
+                    "target": "WETH",
+                    "value": "1 -> 0.01039625645013185"
+                },
+                {
+                    "source": "RAI",
+                    "target": "DAI",
+                    "value": "1 -> 3.0119577255255403"
+                },
+                {
+                    "source": "RAI",
+                    "target": "USDC",
+                    "value": "1 -> 3.013057364249542"
+                },
+                {
+                    "source": "DYDX",
+                    "target": "WETH",
+                    "value": "1 -> 0.004448090618331001"
+                },
+                {
+                    "source": "DYDX",
+                    "target": "USDT",
+                    "value": "1 -> 13.92293286314537"
+                },
+                {
+                    "source": "ETH2x-FLI",
+                    "target": "WETH",
+                    "value": "1 -> 0.04005962602892053"
+                },
+                {
+                    "source": "AGLD",
+                    "target": "WETH",
+                    "value": "1 -> 0.001007466969458254"
+                },
+                {
+                    "source": "COMP",
+                    "target": "WETH",
+                    "value": "1 -> 0.11843193965059126"
+                },
+                {
+                    "source": "HOPR",
+                    "target": "DAI",
+                    "value": "1 -> 0.2583938699507731"
+                },
+                {
+                    "source": "INST",
+                    "target": "WETH",
+                    "value": "1 -> 0.001604917061833694"
+                },
+                {
+                    "source": "EURS",
+                    "target": "USDC",
+                    "value": "1 -> 1.1699112181762579"
+                },
+                {
+                    "source": "DPI",
+                    "target": "WETH",
+                    "value": "1 -> 0.10376640432139668"
+                },
+                {
+                    "source": "AXS",
+                    "target": "WETH",
+                    "value": "1 -> 0.021364492445092635"
+                },
+                {
+                    "source": "HI",
+                    "target": "USDC",
+                    "value": "1 -> 0.5639364384102276"
+                },
+                {
+                    "source": "renBTC",
+                    "target": "WBTC",
+                    "value": "1 -> 0.9998024685146338"
+                },
+                {
+                    "source": "MKR",
+                    "target": "WETH",
+                    "value": "1 -> 0.7910064593351575"
+                },
+                {
+                    "source": "FTM",
+                    "target": "WETH",
+                    "value": "1 -> 0.0003959614428265735"
+                },
+                {
+                    "source": "PERP",
+                    "target": "WETH",
+                    "value": "1 -> 0.004188631541037151"
+                },
+                {
+                    "source": "WDOGE",
+                    "target": "WETH",
+                    "value": "1 -> 7.19830111742945e-05"
+                },
+                {
+                    "source": "FLOOR",
+                    "target": "WETH",
+                    "value": "1 -> 1.0718719308016875e-05"
+                },
+                {
+                    "source": "MATIC",
+                    "target": "WETH",
+                    "value": "1 -> 0.00038883877962828247"
+                },
+                {
+                    "source": "FX",
+                    "target": "WETH",
+                    "value": "1 -> 0.00024182332304909255"
+                },
+                {
+                    "source": "CEL",
+                    "target": "WETH",
+                    "value": "1 -> 0.0016180960654260874"
+                },
+                {
+                    "source": "GNO",
+                    "target": "WETH",
+                    "value": "1 -> 0.08519526313024854"
+                },
+                {
+                    "source": "FEI",
+                    "target": "USDC",
+                    "value": "1 -> 0.9990105138685093"
+                },
+                {
+                    "source": "FWB",
+                    "target": "WETH",
+                    "value": "1 -> 0.035200235356836314"
+                },
+                {
+                    "source": "WTON",
+                    "target": "WETH",
+                    "value": "1 -> 0.002360151689519294"
+                },
+                {
+                    "source": "CELR",
+                    "target": "WETH",
+                    "value": "1 -> 4.4662696997122575e-05"
+                },
+                {
+                    "source": "EURT",
+                    "target": "WETH",
+                    "value": "1 -> 0.00037409397780793335"
+                },
+                {
+                    "source": "EURT",
+                    "target": "USDT",
+                    "value": "1 -> 1.1750135073902555"
+                },
+                {
+                    "source": "BIT",
+                    "target": "WETH",
+                    "value": "1 -> 0.0005315641786741379"
+                },
+                {
+                    "source": "VXV",
+                    "target": "WETH",
+                    "value": "1 -> 0.004574190105198329"
+                },
+                {
+                    "source": "FTX Token",
+                    "target": "WETH",
+                    "value": "1 -> 0.01820611580125984"
+                },
+                {
+                    "source": "YGG",
+                    "target": "USDC",
+                    "value": "1 -> 5.977598854567589"
+                },
+                {
+                    "source": "YGG",
+                    "target": "WETH",
+                    "value": "1 -> 0.001916679582924234"
+                },
+                {
+                    "source": "AAVE",
+                    "target": "WETH",
+                    "value": "1 -> 0.09747792615351118"
+                },
+                {
+                    "source": "NEXO",
+                    "target": "WETH",
+                    "value": "1 -> 0.00048198327866219045"
+                },
+                {
+                    "source": "ARCX",
+                    "target": "WETH",
+                    "value": "1 -> 0.00029081322095058444"
+                },
+                {
+                    "source": "QNT",
+                    "target": "WETH",
+                    "value": "1 -> 0.10717252059138016"
+                },
+                {
+                    "source": "RUNE",
+                    "target": "WETH",
+                    "value": "1 -> 0.0028528155526005698"
+                },
+                {
+                    "source": "1INCH",
+                    "target": "WETH",
+                    "value": "1 -> 0.000874156831030239"
+                },
+                {
+                    "source": "MM",
+                    "target": "USDC",
+                    "value": "1 -> 16.38853964918504"
+                },
+                {
+                    "source": "sUSD",
+                    "target": "FRAX",
+                    "value": "1 -> 1.0046391719464043"
+                },
+                {
+                    "source": "CRV",
+                    "target": "WETH",
+                    "value": "1 -> 0.000893329722142533"
+                },
+                {
+                    "source": "ZENIQ",
+                    "target": "WETH",
+                    "value": "1 -> 9.593414662180649e-05"
+                },
+                {
+                    "source": "KP3R",
+                    "target": "WETH",
+                    "value": "1 -> 0.11477176185777466"
+                },
+                {
+                    "source": "TRU",
+                    "target": "WETH",
+                    "value": "1 -> 9.402966700689158e-05"
+                },
+                {
+                    "source": "UST",
+                    "target": "USDC",
+                    "value": "1 -> 1.0010851681884985"
+                },
+                {
+                    "source": "AVINOC",
+                    "target": "WETH",
+                    "value": "1 -> 1.187719895526478e-05"
+                },
+                {
+                    "source": "AVINOC",
+                    "target": "USDC",
+                    "value": "1 -> 0.03716517019122344"
+                },
+                {
+                    "source": "AVINOC",
+                    "target": "USDT",
+                    "value": "1 -> 0.03723502647634061"
+                },
+                {
+                    "source": "AVINOC",
+                    "target": "DAI",
+                    "value": "1 -> 0.03736529965788511"
+                },
+                {
+                    "source": "BAT",
+                    "target": "WETH",
+                    "value": "1 -> 0.00022418668956716774"
+                },
+                {
+                    "source": "ADST",
+                    "target": "ADS",
+                    "value": "1 -> 1.000237281694568"
+                },
+                {
+                    "source": "ADS",
+                    "target": "ADST",
+                    "value": "1 -> 0.9997627326877488"
+                },
+                {
+                    "source": "GTC",
+                    "target": "WETH",
+                    "value": "1 -> 0.002624886297609549"
+                },
+                {
+                    "source": "CMK",
+                    "target": "USDC",
+                    "value": "1 -> 0.35424266423227074"
+                },
+                {
+                    "source": "LYXe",
+                    "target": "WETH",
+                    "value": "1 -> 0.007631584296659238"
+                },
+                {
+                    "source": "LDO",
+                    "target": "WETH",
+                    "value": "1 -> 0.0016114026382976177"
+                },
+                {
+                    "source": "LCX",
+                    "target": "WETH",
+                    "value": "1 -> 4.723376270079531e-05"
+                },
+                {
+                    "source": "TXJP",
+                    "target": "WETH",
+                    "value": "1 -> 0.05202389848382289"
+                },
+                {
+                    "source": "SNX",
+                    "target": "WETH",
+                    "value": "1 -> 0.0036966600269527456"
+                },
+                {
+                    "source": "ERN",
+                    "target": "WETH",
+                    "value": "1 -> 0.0034887436001305146"
+                },
+                {
+                    "source": "DHT",
+                    "target": "USDC",
+                    "value": "1 -> 0.9910454264316361"
+                },
+                {
+                    "source": "RARE",
+                    "target": "WETH",
+                    "value": "1 -> 0.00035648678332838023"
+                }
+            ]
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4e00\u7ea7\u8282\u70b9",
+                "\u4e8c\u7ea7\u8282\u70b9",
+                "\u4e09\u7ea7\u8282\u70b9",
+                "\u56db\u7ea7\u8282\u70b9",
+                "\u4e94\u7ea7\u8282\u70b9"
+            ],
+            "selected": {
+                "\u4e00\u7ea7\u8282\u70b9": true,
+                "\u4e8c\u7ea7\u8282\u70b9": true,
+                "\u4e09\u7ea7\u8282\u70b9": true,
+                "\u56db\u7ea7\u8282\u70b9": true,
+                "\u4e94\u7ea7\u8282\u70b9": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "uniswap-\u5e02\u573a\u72b6\u6001",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_900ced0a06984c47a7443c04d30ecc28.setOption(option_900ced0a06984c47a7443c04d30ecc28);
+    </script>
+    <script>   
+     //窗口大小变化时候，进行刷新页面操作，防止样式混乱
+         var x=window.innerWidth;
+     function resizeFresh(){
+         if(x!=window.innerWidth)
+             location.reload();
+     }
+ </script>
+</body>
+</html>
